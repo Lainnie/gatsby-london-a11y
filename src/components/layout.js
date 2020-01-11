@@ -8,9 +8,9 @@ const Layout = props => {
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
         <div className="site-head-container">
-          <a
+          <button
             className="nav-burger"
-            href={`#`}
+            href="#main"
             onClick={() => setToggleNav(!toggleNav)}
           >
             <div
@@ -23,7 +23,7 @@ const Layout = props => {
                 <div className="hamburger-inner" />
               </div>
             </div>
-          </a>
+          </button>
           <nav
             aria-label="navigation on full screen"
             className="site-head-left"
@@ -75,7 +75,7 @@ const Layout = props => {
           </div>
         </div>
       </header>
-      <main id="site-main" className="site-main">
+      <main id="main" className="site-main">
         <div
           aria-label="navigation on mobile screen"
           className="transition-fade"
