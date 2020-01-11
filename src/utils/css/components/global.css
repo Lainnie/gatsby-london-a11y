@@ -125,10 +125,6 @@ html {
 a {
   background-color: transparent;
 }
-a:active,
-a:hover {
-  outline: 0;
-}
 b,
 strong {
   font-weight: bold;
@@ -339,12 +335,10 @@ blockquote cite a {
 a {
   color: color(var(--color-primary) l(-15%));
   text-decoration: none;
-  transition: 0.4s ease;
 }
 
 a:hover {
   text-decoration: underline;
-  transition: 0.2s ease;
 }
 
 h1,
