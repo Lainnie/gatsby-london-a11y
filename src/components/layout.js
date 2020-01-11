@@ -24,7 +24,10 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav aria-label="navigation on full screen" class="site-head-left">
+          <nav
+            aria-label="navigation on full screen"
+            className="site-head-left"
+          >
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
